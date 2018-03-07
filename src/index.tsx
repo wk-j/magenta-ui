@@ -2,13 +2,12 @@ import React from "react"
 import { render } from "react-dom"
 
 const NavBar = ({ }) =>
-    <nav>
-        <ul>
-            <li><a>Home</a></li>
-            <li><a>Installation</a></li>
-            <li><a>Document</a></li>
-        </ul>
-    </nav>
+    <div className="jw-nav">
+        <a className="jw-nav-link">Home</a>
+        <a className="jw-nav-link">Installation</a>
+        <a className="jw-nav-link">Document</a>
+        <a className="jw-nav-link jw-right">Login</a>
+    </div>
 
 class App extends React.Component {
     render() {
