@@ -13,23 +13,21 @@
     margin: 5px;
 }
 
-.jw {
-    .message {
-        @extend %message-shared;
-    }
+.jw.message {
+    @extend %message-shared;
+}
 
-    .success {
-        @extend  %message-shared;
-        border-color: green;
-    }
+.jw.success {
+    @extend  %message-shared;
+    border-color: green;
+}
 
-    .error {
-        @extend  %message-shared;
-        border-color: red;
-    }
+.jw.error {
+    @extend  %message-shared;
+    border-color: red;
+}
 
-    .warning {
-        @extend %message-shared;
-        border-color: orange;
-    }
+.jw.warning {
+    @extend %message-shared;
+    border-color: orange;
 }
