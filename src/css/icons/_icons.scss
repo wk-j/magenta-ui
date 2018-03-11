@@ -4,19 +4,19 @@
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
-  src: url("webfonts/fa-regular-400.eot");
-  src: url("webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), 
-        url("webfonts/fa-regular-400.woff2") format("woff2"), 
-        url("webfonts/fa-regular-400.woff") format("woff"), 
-        url("webfonts/fa-regular-400.ttf") format("truetype"), 
-        url("webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  src: url('webfonts/fa-regular-400.eot');
+  src: url('webfonts/fa-regular-400.eot?#iefix') format('embedded-opentype'), 
+        url('webfonts/fa-regular-400.woff2') format('woff2'), 
+        url('webfonts/fa-regular-400.woff') format('woff'), 
+        url('webfonts/fa-regular-400.ttf') format('truetype'), 
+        url('webfonts/fa-regular-400.svg#fontawesome') format('svg'); }
 
 .icon {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; 
 }
 
-.icon.500px:before { content: fa-content($fa-var-500px); }
+//.icon.500px:before { content: fa-content($fa-var-500px); }
 .icon.accessible-icon:before { content: fa-content($fa-var-accessible-icon); }
 .icon.accusoft:before { content: fa-content($fa-var-accusoft); }
 .icon.address-book:before { content: fa-content($fa-var-address-book); }

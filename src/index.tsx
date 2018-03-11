@@ -25,6 +25,11 @@ const InvertButton = ({ }) =>
         <div className="jw button invert negative">Negative</div>
     </div>
 
+const Icons = ({ }) =>
+    <div>
+        <div className="icon blogger">HI</div>
+    </div>
+
 class App extends React.Component {
     render() {
         return (
@@ -36,6 +41,7 @@ class App extends React.Component {
                 <div className="jw warning">Warning</div>
                 <Bottons />
                 <InvertButton />
+                <Icons />
             </div>
         );
     }
