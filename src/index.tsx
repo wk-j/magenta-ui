@@ -17,6 +17,14 @@ const Bottons = ({ }) =>
         <div className="button negative">Negative</div>
     </div>
 
+const InvertButton = ({ }) =>
+    <div>
+        <div className="button invert primary">Primary</div>
+        <div className="button invert secondary">Secondary</div>
+        <div className="button invert positive">Positive</div>
+        <div className="button invert negative">Negative</div>
+    </div>
+
 class App extends React.Component {
     render() {
         return (
@@ -27,6 +35,7 @@ class App extends React.Component {
                 <div className="success">Success</div>
                 <div className="warning">Warning</div>
                 <Bottons />
+                <InvertButton />
             </div>
         );
     }

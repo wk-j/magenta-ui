@@ -1,0 +1,35 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+%message-shared {
+    @include border-radius (5px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    margin: 5px;
+}
+
+.jw {
+    .message {
+        @extend %message-shared;
+    }
+
+    .success {
+        @extend  %message-shared;
+        border-color: green;
+    }
+
+    .error {
+        @extend  %message-shared;
+        border-color: red;
+    }
+
+    .warning {
+        @extend %message-shared;
+        border-color: orange;
+    }
+}
